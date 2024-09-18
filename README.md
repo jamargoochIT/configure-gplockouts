@@ -1,6 +1,4 @@
-<p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-</p>
+![Microsoft Azure](https://github.com/user-attachments/assets/9d061557-5f9c-45a2-a871-1e949df02143)
 
 <h1>Configuring Account Lockouts in Group Policy</h1>
 This tutorial goes through configuring account lockouts in Group Policy within Azure Virtual Machines.<br /><br><br><br><br>
