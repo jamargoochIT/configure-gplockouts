@@ -4,7 +4,7 @@
 This tutorial goes through configuring account lockouts in Group Policy within Azure Virtual Machines.<br /><br><br><br><br>
 
 
-Configureing account lockouts helps prevent unauthorized access and reduces brute force attacks.<br> 
+Why would we want to know how to do this? Well, a few reasons why is becuase configureing account lockouts in group policy helps prevent unauthorized access and reduces brute force attacks.<br> 
 So, first up, we’ll go to the Windows Desktop search bar and type in Group Policy and open the app.
 ![30](https://github.com/user-attachments/assets/cee79cfa-ea3b-4f67-b255-afa86be487ce)<br><br><br><br>
 
@@ -29,8 +29,8 @@ In the adjacent window titled Policy, here is where we’ll edit the settings.
 
 
 
-Here we can change the what we need by clicking on a setting and checking the box marked define this policy setting. 
-The last setting: Reset Account Lockout Counter After, will reset the account lockout attempt counter if they wait a specific amount of time, for example if this setting is set to 5 minutes and they have a lockout threshold of 3 (how many failed attempts before the user gets locked out.) and they fail 2 lockouts, then they wait 5 minutes, the user will have 3 more failed attempts again instead of having only 1 left.<br>
+Here we can change what we need by clicking on a setting and checking the box marked define this policy setting. 
+The last setting: Reset Account Lockout Counter After, will reset the account lockout attempt counter if they wait a specific amount of time, for example if this setting is set to 5 minutes and they have a lockout threshold of 3 (how many failed attempts before the user gets locked out.) and they fail 2 lockouts, then they wait 5 minutes, the user will have 3 more failed attempts left again instead of having only 1 left.<br>
 
 ![48](https://github.com/user-attachments/assets/389cd282-22ec-42e4-b40a-397ba0996c86)
 
