@@ -84,7 +84,7 @@ After that, we can right-click on the user's account and select reset password.
 
 
 
-You can set the password to what we like, and choose whether or not it’s required for the user to change their password after their first log-in. 
+You can set the password to what we like and choose whether or not it’s required for the user to change their password after their first log-in. 
 After that, click OK.<br><br>
 
 You can also right-click on the user and select disable or enable their account.<br><br>
